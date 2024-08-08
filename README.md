@@ -32,15 +32,13 @@
 
   <style>
   body {
-     background-color: rgb(0, 43, 54);
-     color: rgb(131,148,150);
+     background-color: var(--c-background-color);
+     color: var(--base-font-color);
   }
-  header {
-    background-color: rgb(7, 54, 66);
+  header, footer {
+    background-color: var(--c-background-highlights);
   } 
-  footer {
-    background-color: rgb(7, 54, 66); 
-  }
+ 
   </style>
     <!-- Here is our main header that is used across all the pages of our website -->
 
